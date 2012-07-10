@@ -13,7 +13,7 @@ end
 
 hostnames.each do |hostname|
   log "My hostname: #{hostname}"
-  if hostname =~ /pivotallabs.com/ and hostname !~ /^dyn-/
+  if hostname =~ /newcontext.com/ and hostname !~ /^dyn-/
     hostname = hostname.gsub(/\..*/,"")
 
     # The scutil commands need to run as root, unless
